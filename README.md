@@ -16,13 +16,13 @@ Simply add the projects to your solution and reference them both in PCL and Plat
 
 In your XAML, add a xmlns pointing to DNAXFCircleProgress and you are ready to use the control:
 
-'''
+```
 <controls:XFCircleProgress WidthRequest="300" HeightRequest="300"
                            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
                            Maximun="200" Minimun="0" Value="125"
                            BackColor="LightGray" ForeColor="Green" TextColor="DarkBlue"
                            BarHeight="30" AnimationDuration="1000"
                            Text="125" TextSize="60"/>
-'''
+```
 
 Enjoy! 
